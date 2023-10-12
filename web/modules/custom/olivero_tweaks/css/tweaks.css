@@ -1,0 +1,15 @@
+.wp-block-quote {
+  border: none; 
+}
+
+.wp-block-image figure {
+  background: none;
+}
+
+.wp-block-image .alignright {
+  margin: 0.5em -7em 0.5em 1em;
+}
+
+.wp-block[data-align=right]>.wp-block-image {
+  margin: 0.5em -7em 0.5em 1em;
+}
