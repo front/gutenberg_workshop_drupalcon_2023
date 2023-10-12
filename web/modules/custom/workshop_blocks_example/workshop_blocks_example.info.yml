@@ -1,0 +1,7 @@
+name: 'Workshop Blocks'
+type: module
+description: 'Example blocks'
+package: Frontkom Workshop
+core_version_requirement: ^10
+dependencies:
+  - gutenberg:gutenberg

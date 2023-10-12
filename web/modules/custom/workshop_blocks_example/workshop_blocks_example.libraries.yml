@@ -1,0 +1,5 @@
+blocks:
+  js:
+    dist/blocks.js: {}
+  dependencies:
+    - gutenberg/edit-node

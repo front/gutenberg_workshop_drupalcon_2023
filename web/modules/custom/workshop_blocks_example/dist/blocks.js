@@ -1,0 +1,1 @@
+!function(){"use strict";var e=window.wp.blocks,c=window.React;const l={title:"My Block",description:"A custom block",edit:()=>(0,c.createElement)("div",null,"My Block - Editing"),save:()=>(0,c.createElement)("div",null,"My Block - Rendering")};(0,e.registerBlockType)("workshop-blocks-example/my-block",l)}();
