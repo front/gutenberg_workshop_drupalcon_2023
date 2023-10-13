@@ -18,3 +18,17 @@ The recommended method is using [DDEV](https://ddev.readthedocs.io/en/stable/#in
 If starting with an empty database, a sample one will be imported and all necessary commands will be run.
 
 Have fun!
+
+### Resources
+- Block Editor Handbook
+  https://developer.wordpress.org/block-editor/
+- Block API Reference
+  https://developer.wordpress.org/block-editor/reference-guides/block-api/
+- WordPress/Gutenberg components
+  https://developer.wordpress.org/block-editor/reference-guides/components/ 
+- Formatting Toolbar API
+  https://developer.wordpress.org/block-editor/how-to-guides/format-api/ 
+- Drupal Gutenberg
+  https://www.drupal.org/docs/contributed-modules/gutenberg
+- WordPress Scripts
+  https://developer.wordpress.org/block-editor/reference-guides/packages/packages-scripts/
