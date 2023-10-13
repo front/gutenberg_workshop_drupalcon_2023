@@ -1,0 +1,9 @@
+name: 'Workshop Migration'
+type: module
+description: 'An example to migrate HTML to Gutenberg'
+package: Custom
+core_version_requirement: ^10
+dependencies:
+  - gutenberg:gutenberg
+  - migrate:migrate
+  - migrate_plus:migrate_plus
