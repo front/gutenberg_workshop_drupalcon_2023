@@ -1,0 +1,54 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "workshop-blocks/person-card",
+  "title": "Person Card",
+  "description": "A block that displays a person's name and picture.",
+  "category": "design",
+  "icon": "businessman",
+  "attributes": {
+    "image_url": {
+      "type": "string"
+    },
+    "image_uuid": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "source": "text",
+      "selector": "h2"
+    },
+    "position": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "align": false,
+    "anchor": true,
+    "color": {
+      "background": true,
+      "text": true
+    }
+  },
+  "styles": [
+    {
+      "name": "default",
+      "label": "Default",
+      "isDefault": true
+    },
+    {
+      "name": "image-right",
+      "label": "Right aligned image"
+    }
+  ],
+  "variations": [
+    {
+      "name": "pet",
+      "title": "Pet Card",
+      "description": "A card for a pet.",
+      "icon": "pets",
+      "attributes": { "className": "is-style-pet" },
+      "isActive": [ "className" ]
+    }
+  ]
+}

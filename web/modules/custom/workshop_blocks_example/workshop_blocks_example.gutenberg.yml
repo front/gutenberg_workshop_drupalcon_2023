@@ -1,2 +1,4 @@
 libraries-edit:
   - workshop_blocks_example/blocks
+libraries-view:
+  - workshop_blocks_example/blocks
