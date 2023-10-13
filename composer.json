@@ -20,6 +20,7 @@
         "drupal/core-project-message": "^10.1",
         "drupal/core-recommended": "^10.1",
         "drupal/gutenberg": "^2.7",
+        "drupal/migrate_plus": "^6.0",
         "drush/drush": "^12.3"
     },
     "conflict": {
