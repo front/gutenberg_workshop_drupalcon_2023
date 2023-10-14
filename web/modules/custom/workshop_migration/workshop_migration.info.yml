@@ -1,7 +1,7 @@
 name: 'Workshop Migration'
 type: module
 description: 'An example to migrate HTML to Gutenberg'
-package: Custom
+package: Frontkom Workshop
 core_version_requirement: ^10
 dependencies:
   - gutenberg:gutenberg
