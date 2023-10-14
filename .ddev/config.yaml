@@ -18,6 +18,7 @@ composer_version: "2"
 web_environment: []
 nodejs_version: "16"
 hooks:
+  # @todo: import db using ddev import-db so hook can be triggered
   post-import-db:
   - exec: /var/www/html/.ddev/change-config-dir.sh
   - exec: drush cr && drush updb -y && drush cim -y && drush cr
@@ -25,11 +26,10 @@ hooks:
   - composer: install
   - exec: /var/www/html/.ddev/change-config-dir.sh
   - exec: /var/www/html/.ddev/import-db.sh
+  - exec: mkdir -p /var/www/html/web/sites/default/files
+  - exec: rsync -avP /var/www/html/.ddev/assets/files/ /var/www/html/web/sites/default/files
   - exec: drush cr && drush updb -y && drush cim -y && drush cr
   - exec-host: .ddev/launch.sh
-  pre-start:
-  - exec-host: mkdir -p web/sites/default/files
-  - exec-host: rsync -avP .ddev/assets/files/ web/sites/default/files
 # Key features of ddev's config.yaml:
 
 # name: <projectname> # Name of the project, automatically provides
